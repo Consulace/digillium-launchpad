@@ -1,21 +1,29 @@
 import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
-import { Building2 } from "lucide-react";
 
-// Placeholder client logos - these would be replaced with actual logos
+// Import client logos
+import affinidiLogo from "@/assets/clients/affinidi.png";
+import arkanceLogo from "@/assets/clients/arkance.png";
+import autodeskLogo from "@/assets/clients/autodesk.png";
+import baccaroseLogo from "@/assets/clients/baccarose.png";
+import beenextLogo from "@/assets/clients/beenext.png";
+import bentleyLogo from "@/assets/clients/bentley.png";
+import broadcomLogo from "@/assets/clients/broadcom.png";
+import capitalandLogo from "@/assets/clients/capitaland.png";
+import chamborLogo from "@/assets/clients/chambor.png";
+import ciiLogo from "@/assets/clients/cii.png";
+
 const clients = [
-  { name: "TechCorp", industry: "Technology" },
-  { name: "FinanceHub", industry: "BFSI" },
-  { name: "CloudSoft", industry: "SaaS" },
-  { name: "BuildMax", industry: "Manufacturing" },
-  { name: "PropElite", industry: "Real Estate" },
-  { name: "DataFlow", industry: "Technology" },
-  { name: "SecureNet", industry: "Enterprise" },
-  { name: "GrowthLabs", industry: "SaaS" },
-  { name: "InnovateCo", industry: "Technology" },
-  { name: "MetroBank", industry: "BFSI" },
-  { name: "SmartBuild", industry: "Manufacturing" },
-  { name: "NextGen", industry: "Enterprise" },
+  { name: "Affinidi", logo: affinidiLogo },
+  { name: "Arkance", logo: arkanceLogo },
+  { name: "Autodesk", logo: autodeskLogo },
+  { name: "Baccarose", logo: baccaroseLogo },
+  { name: "Beenext", logo: beenextLogo },
+  { name: "Bentley", logo: bentleyLogo },
+  { name: "Broadcom", logo: broadcomLogo },
+  { name: "CapitaLand", logo: capitalandLogo },
+  { name: "Chambor", logo: chamborLogo },
+  { name: "Confederation of Indian Industry", logo: ciiLogo },
 ];
 
 const Clients = () => {
@@ -45,27 +53,20 @@ const Clients = () => {
           </div>
 
           {/* Client Logos Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {clients.map((client, index) => (
               <div
                 key={client.name}
-                className="group aspect-[4/3] flex flex-col items-center justify-center p-6 rounded-xl bg-background border border-border transition-all duration-300 hover:shadow-lg hover:border-primary/20 hover:-translate-y-1 animate-fade-in-up"
+                className="group aspect-[3/2] flex items-center justify-center p-6 rounded-xl bg-background border border-border transition-all duration-300 hover:shadow-lg hover:border-primary/20 hover:-translate-y-1 animate-fade-in-up"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <div className="w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-3 group-hover:bg-primary/10 transition-colors">
-                  <Building2 className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
-                </div>
-                <span className="font-semibold text-foreground text-sm text-center">{client.name}</span>
-                <span className="text-xs text-muted-foreground">{client.industry}</span>
+                <img
+                  src={client.logo}
+                  alt={`${client.name} logo`}
+                  className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                />
               </div>
             ))}
-          </div>
-
-          {/* CTA */}
-          <div className="mt-20 text-center">
-            <p className="text-muted-foreground mb-4">
-              Client logos will be displayed here. Upload your client logos to showcase your partnerships.
-            </p>
           </div>
         </div>
       </section>
