@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
+import { Mail, MapPin, Send, CheckCircle } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -72,18 +72,6 @@ const Contact = () => {
 
                 <div className="flex gap-4 items-start">
                   <div className="service-icon flex-shrink-0">
-                    <Phone className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <a href="tel:+919353029772" className="text-muted-foreground hover:text-primary transition-colors">
-                      +91 93530 29772
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex gap-4 items-start">
-                  <div className="service-icon flex-shrink-0">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
@@ -91,7 +79,7 @@ const Contact = () => {
                     <p className="text-muted-foreground">
                       2nd Floor, 35/5 Langford Road,<br />
                       Shanti Nagar, Bengaluru Urban,<br />
-                      Karnataka, 560001
+                      Karnataka, 560025
                     </p>
                   </div>
                 </div>
