@@ -12,6 +12,16 @@ import broadcomLogo from "@/assets/clients/broadcom.png";
 import capitalandLogo from "@/assets/clients/capitaland.png";
 import chamborLogo from "@/assets/clients/chambor.png";
 import ciiLogo from "@/assets/clients/cii.png";
+import datadogLogo from "@/assets/clients/datadog.png";
+import hpLogo from "@/assets/clients/hp.png";
+import informaticaLogo from "@/assets/clients/informatica.png";
+import jpmorganLogo from "@/assets/clients/jpmorgan.png";
+import karixLogo from "@/assets/clients/karix.png";
+import lenovoLogo from "@/assets/clients/lenovo.png";
+import microgenesisLogo from "@/assets/clients/microgenesis.png";
+import microlandLogo from "@/assets/clients/microland.png";
+import microsoftLogo from "@/assets/clients/microsoft.png";
+import nemetschekLogo from "@/assets/clients/nemetschek.png";
 
 const clients = [
   { name: "Affinidi", logo: affinidiLogo },
@@ -24,6 +34,16 @@ const clients = [
   { name: "CapitaLand", logo: capitalandLogo },
   { name: "Chambor", logo: chamborLogo },
   { name: "Confederation of Indian Industry", logo: ciiLogo },
+  { name: "Datadog", logo: datadogLogo },
+  { name: "HP", logo: hpLogo },
+  { name: "Informatica", logo: informaticaLogo },
+  { name: "JPMorgan Chase", logo: jpmorganLogo },
+  { name: "Karix", logo: karixLogo },
+  { name: "Lenovo", logo: lenovoLogo },
+  { name: "Microgenesis", logo: microgenesisLogo },
+  { name: "Microland", logo: microlandLogo },
+  { name: "Microsoft", logo: microsoftLogo },
+  { name: "Nemetschek Group", logo: nemetschekLogo },
 ];
 
 const Clients = () => {

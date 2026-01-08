@@ -95,6 +95,16 @@ const Footer = () => {
                   Account-Based Marketing
                 </Link>
               </li>
+              <li>
+                <Link to="/services/social-media-marketing" className="text-background/70 hover:text-background text-sm transition-colors">
+                  Social Media Marketing
+                </Link>
+              </li>
+              <li>
+                <Link to="/services/merchandise-gifting" className="text-background/70 hover:text-background text-sm transition-colors">
+                  Merchandise & Gifting
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -102,11 +112,13 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-semibold mb-6">Contact</h4>
             <ul className="space-y-3 text-sm text-background/70">
-              <li>info@digillium.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li>contact@digillium.com</li>
+              <li>contact@makemycampaign.in</li>
+              <li>+91 93530 29772</li>
               <li>
-                123 Business District<br />
-                New York, NY 10001
+                2nd Floor, 35/5 Langford Road,<br />
+                Shanti Nagar, Bengaluru Urban,<br />
+                Karnataka, 560001
               </li>
             </ul>
           </div>
