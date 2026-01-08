@@ -64,8 +64,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <a href="mailto:info@digillium.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@digillium.com
+                    <a href="mailto:contact@digillium.in" className="text-muted-foreground hover:text-primary transition-colors">
+                      contact@digillium.in
                     </a>
                   </div>
                 </div>
@@ -76,8 +76,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                    <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                      +1 (555) 123-4567
+                    <a href="tel:+919353029772" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 93530 29772
                     </a>
                   </div>
                 </div>
@@ -89,9 +89,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Address</h4>
                     <p className="text-muted-foreground">
-                      123 Business District<br />
-                      New York, NY 10001<br />
-                      United States
+                      2nd Floor, 35/5 Langford Road,<br />
+                      Shanti Nagar, Bengaluru Urban,<br />
+                      Karnataka, 560001
                     </p>
                   </div>
                 </div>

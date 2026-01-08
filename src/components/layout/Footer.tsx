@@ -112,8 +112,7 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-semibold mb-6">Contact</h4>
             <ul className="space-y-3 text-sm text-background/70">
-              <li>contact@digillium.com</li>
-              <li>contact@makemycampaign.in</li>
+              <li>contact@digillium.in</li>
               <li>+91 93530 29772</li>
               <li>
                 2nd Floor, 35/5 Langford Road,<br />
