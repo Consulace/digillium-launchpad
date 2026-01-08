@@ -22,6 +22,13 @@ import microgenesisLogo from "@/assets/clients/microgenesis.png";
 import microlandLogo from "@/assets/clients/microland.png";
 import microsoftLogo from "@/assets/clients/microsoft.png";
 import nemetschekLogo from "@/assets/clients/nemetschek.png";
+import parcosLogo from "@/assets/clients/parcos.png";
+import penguinLogo from "@/assets/clients/penguin-solutions.png";
+import tanlaLogo from "@/assets/clients/tanla.png";
+import twilioLogo from "@/assets/clients/twilio.png";
+import unityLogo from "@/assets/clients/unity.png";
+import veeamLogo from "@/assets/clients/veeam.png";
+import vmwareLogo from "@/assets/clients/vmware.png";
 
 const clients = [
   { name: "Affinidi", logo: affinidiLogo },
@@ -44,6 +51,13 @@ const clients = [
   { name: "Microland", logo: microlandLogo },
   { name: "Microsoft", logo: microsoftLogo },
   { name: "Nemetschek Group", logo: nemetschekLogo },
+  { name: "Parcos", logo: parcosLogo },
+  { name: "Penguin Solutions", logo: penguinLogo },
+  { name: "Tanla", logo: tanlaLogo },
+  { name: "Twilio", logo: twilioLogo },
+  { name: "Unity", logo: unityLogo },
+  { name: "Veeam", logo: veeamLogo },
+  { name: "VMware", logo: vmwareLogo },
 ];
 
 const Clients = () => {
