@@ -113,11 +113,10 @@ const Footer = () => {
             <h4 className="font-display font-semibold mb-6">Contact</h4>
             <ul className="space-y-3 text-sm text-background/70">
               <li>contact@digillium.in</li>
-              <li>+91 93530 29772</li>
               <li>
                 2nd Floor, 35/5 Langford Road,<br />
                 Shanti Nagar, Bengaluru Urban,<br />
-                Karnataka, 560001
+                Karnataka, 560025
               </li>
             </ul>
           </div>
