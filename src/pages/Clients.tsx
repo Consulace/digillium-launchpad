@@ -4,60 +4,34 @@ import PageHeader from "@/components/ui/PageHeader";
 // Import client logos
 import affinidiLogo from "@/assets/clients/affinidi.png";
 import arkanceLogo from "@/assets/clients/arkance.png";
-import autodeskLogo from "@/assets/clients/autodesk.png";
-import baccaroseLogo from "@/assets/clients/baccarose.png";
 import beenextLogo from "@/assets/clients/beenext.png";
-import bentleyLogo from "@/assets/clients/bentley.png";
-import broadcomLogo from "@/assets/clients/broadcom.png";
 import capitalandLogo from "@/assets/clients/capitaland.png";
 import chamborLogo from "@/assets/clients/chambor.png";
-import ciiLogo from "@/assets/clients/cii.png";
-import datadogLogo from "@/assets/clients/datadog.png";
 import hpLogo from "@/assets/clients/hp.png";
-import informaticaLogo from "@/assets/clients/informatica.png";
 import jpmorganLogo from "@/assets/clients/jpmorgan.png";
 import karixLogo from "@/assets/clients/karix.png";
-import lenovoLogo from "@/assets/clients/lenovo.png";
 import microgenesisLogo from "@/assets/clients/microgenesis.png";
-import microlandLogo from "@/assets/clients/microland.png";
-import microsoftLogo from "@/assets/clients/microsoft.png";
 import nemetschekLogo from "@/assets/clients/nemetschek.png";
-import parcosLogo from "@/assets/clients/parcos.png";
 import penguinLogo from "@/assets/clients/penguin-solutions.png";
 import tanlaLogo from "@/assets/clients/tanla.png";
-import twilioLogo from "@/assets/clients/twilio.png";
 import unityLogo from "@/assets/clients/unity.png";
 import veeamLogo from "@/assets/clients/veeam.png";
-import vmwareLogo from "@/assets/clients/vmware.png";
 
 const clients = [
   { name: "Affinidi", logo: affinidiLogo },
   { name: "Arkance", logo: arkanceLogo },
-  { name: "Autodesk", logo: autodeskLogo },
-  { name: "Baccarose", logo: baccaroseLogo },
   { name: "Beenext", logo: beenextLogo },
-  { name: "Bentley", logo: bentleyLogo },
-  { name: "Broadcom", logo: broadcomLogo },
   { name: "CapitaLand", logo: capitalandLogo },
   { name: "Chambor", logo: chamborLogo },
-  { name: "Confederation of Indian Industry", logo: ciiLogo },
-  { name: "Datadog", logo: datadogLogo },
   { name: "HP", logo: hpLogo },
-  { name: "Informatica", logo: informaticaLogo },
   { name: "JPMorgan Chase", logo: jpmorganLogo },
   { name: "Karix", logo: karixLogo },
-  { name: "Lenovo", logo: lenovoLogo },
   { name: "Microgenesis", logo: microgenesisLogo },
-  { name: "Microland", logo: microlandLogo },
-  { name: "Microsoft", logo: microsoftLogo },
   { name: "Nemetschek Group", logo: nemetschekLogo },
-  { name: "Parcos", logo: parcosLogo },
   { name: "Penguin Solutions", logo: penguinLogo },
   { name: "Tanla", logo: tanlaLogo },
-  { name: "Twilio", logo: twilioLogo },
   { name: "Unity", logo: unityLogo },
   { name: "Veeam", logo: veeamLogo },
-  { name: "VMware", logo: vmwareLogo },
 ];
 
 const Clients = () => {
@@ -97,7 +71,7 @@ const Clients = () => {
                 <img
                   src={client.logo}
                   alt={`${client.name} logo`}
-                  className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="max-w-full max-h-full object-contain"
                 />
               </div>
             ))}
