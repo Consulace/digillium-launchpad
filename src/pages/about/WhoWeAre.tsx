@@ -56,6 +56,72 @@ const WhoWeAre = () => {
           </div>
         </div>
       </section>
+
+      {/* Leadership Team Section */}
+      <section className="section-padding bg-background">
+        <div className="container-wide">
+          <div className="text-center mb-12 animate-fade-in-up">
+            <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
+              Leadership Team
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Meet the visionaries driving our mission forward
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* CEO Card */}
+            <div className="bg-card rounded-2xl border border-border p-8 animate-fade-in-up">
+              <div className="flex flex-col items-center text-center">
+                {/* Photo Placeholder */}
+                <div className="w-40 h-52 rounded-xl bg-gradient-brand-soft border border-border/50 flex items-center justify-center mb-6 overflow-hidden">
+                  <div className="text-muted-foreground text-sm">Photo</div>
+                </div>
+                
+                {/* Name */}
+                <h3 className="text-xl font-display font-semibold text-foreground mb-1">
+                  [CEO Name]
+                </h3>
+                
+                {/* Title */}
+                <p className="text-sm font-medium text-gradient-brand mb-4">
+                  Chief Executive Officer
+                </p>
+                
+                {/* Bio */}
+                <p className="text-muted-foreground leading-relaxed">
+                  A visionary leader with over 15 years of experience in marketing and technology. Passionate about driving innovation and delivering exceptional results for enterprise clients.
+                </p>
+              </div>
+            </div>
+
+            {/* Director Card */}
+            <div className="bg-card rounded-2xl border border-border p-8 animate-fade-in-up delay-100">
+              <div className="flex flex-col items-center text-center">
+                {/* Photo Placeholder */}
+                <div className="w-40 h-52 rounded-xl bg-gradient-brand-soft border border-border/50 flex items-center justify-center mb-6 overflow-hidden">
+                  <div className="text-muted-foreground text-sm">Photo</div>
+                </div>
+                
+                {/* Name */}
+                <h3 className="text-xl font-display font-semibold text-foreground mb-1">
+                  [Director Name]
+                </h3>
+                
+                {/* Title */}
+                <p className="text-sm font-medium text-gradient-brand mb-4">
+                  Director
+                </p>
+                
+                {/* Bio */}
+                <p className="text-muted-foreground leading-relaxed">
+                  A strategic thinker with deep expertise in demand generation and client engagement. Committed to building lasting partnerships and achieving measurable business outcomes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };
