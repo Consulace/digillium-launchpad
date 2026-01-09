@@ -48,7 +48,7 @@ const Clients = () => {
           <div className="grid sm:grid-cols-3 gap-8 mb-20">
             <div className="text-center p-8 rounded-2xl bg-gradient-brand-soft border border-border/50 animate-fade-in-up">
               <div className="text-4xl font-display font-bold text-gradient-brand mb-2">50+</div>
-              <p className="text-muted-foreground">Enterprise Clients</p>
+              <p className="text-muted-foreground">Fortune 1000 Enterprise Clients</p>
             </div>
             <div className="text-center p-8 rounded-2xl bg-gradient-brand-soft border border-border/50 animate-fade-in-up delay-100">
               <div className="text-4xl font-display font-bold text-gradient-brand mb-2">6+</div>
