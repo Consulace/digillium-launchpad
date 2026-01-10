@@ -13,37 +13,37 @@ const services = [
   {
     icon: Users,
     title: "In-Person Engagement",
-    description: "Launches, events, exhibitions & experiential marketing",
+    description: "Experiential events connecting brands with decision-makers through launches and activations.",
     path: "/services/in-person-engagement",
   },
   {
     icon: Megaphone,
     title: "Demand Generation",
-    description: "Targeted outreach & omnichannel engagement",
+    description: "Multi-touch outreach programs designed to create awareness, interest, and buying intent.",
     path: "/services/demand-generation",
   },
   {
     icon: UserPlus,
     title: "Lead Generation",
-    description: "Prospect identification to qualified handover",
+    description: "Identifying, engaging, and qualifying prospects for seamless sales handover.",
     path: "/services/lead-generation",
   },
   {
     icon: Target,
     title: "Account-Based Marketing",
-    description: "CXO connect & strategic account engagement",
+    description: "Strategic ABM programs to influence key accounts and engage buying committees.",
     path: "/services/account-based-marketing",
   },
   {
     icon: Share2,
     title: "Social Media Marketing",
-    description: "Paid, organic, SEO & performance optimization",
+    description: "Paid and organic social driving brand visibility, engagement, and performance.",
     path: "/services/social-media-marketing",
   },
   {
     icon: Gift,
     title: "Merchandise & Gifting",
-    description: "Premium branding & eco-friendly solutions",
+    description: "Eco-conscious branded merchandise with flexible MOQs for scalable gifting.",
     path: "/services/merchandise-gifting",
   },
 ];

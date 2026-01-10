@@ -55,7 +55,7 @@ const Clients = () => {
               <p className="text-muted-foreground">Industries Served</p>
             </div>
             <div className="text-center p-8 rounded-2xl bg-gradient-brand-soft border border-border/50 animate-fade-in-up delay-200">
-              <div className="text-4xl font-display font-bold text-gradient-brand mb-2">500+</div>
+              <div className="text-4xl font-display font-bold text-gradient-brand mb-2">50+</div>
               <p className="text-muted-foreground">Campaigns Delivered</p>
             </div>
           </div>

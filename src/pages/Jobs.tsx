@@ -32,24 +32,75 @@ const Jobs = () => {
       <section className="section-padding bg-card">
         <div className="container-wide">
           <div className="max-w-3xl mx-auto text-center">
-            {/* No Openings Message */}
-            <div className="p-12 rounded-2xl bg-gradient-brand-soft border border-border/50 mb-16 animate-fade-in-up">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <Briefcase className="h-8 w-8 text-primary" />
+            {/* Job Opening */}
+            <div className="p-8 rounded-2xl bg-gradient-brand-soft border border-border/50 mb-16 animate-fade-in-up text-left">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-1">
+                    Telecaller
+                  </h2>
+                  <p className="text-sm text-muted-foreground">Full-time · On-site · Bangalore</p>
+                </div>
               </div>
-              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                No Open Positions Currently
-              </h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                We currently do not have open positions. However, we're always interested in connecting with talented individuals who share our passion for marketing excellence.
-              </p>
-              <p className="text-muted-foreground">
-                Please check back later or{" "}
-                <Link to="/contact" className="text-primary font-medium hover:underline">
-                  reach out via our contact page
-                </Link>{" "}
-                to introduce yourself.
-              </p>
+              
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-foreground mb-3">Job Description</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    This is a full-time on-site role for an Inside Sales Representative at Digillium in Bangalore. The Inside Sales Representative will be responsible for customer satisfaction, lead generation, account management, and providing excellent customer service on a day-to-day basis.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-foreground mb-3">Qualifications</h3>
+                  <ul className="text-muted-foreground space-y-2">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Inside Sales and Lead Generation skills
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Customer Satisfaction and Customer Service skills
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Experience in Account Management
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Strong communication and interpersonal skills
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Results-oriented and target-driven mindset
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Ability to work well in a team environment
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Previous experience in a sales role is a plus
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      Bachelor's degree in engineering or related field
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="pt-4 border-t border-border">
+                  <p className="text-muted-foreground">
+                    Send your resume and portfolio to{" "}
+                    <a href="mailto:abcde@digillium.in" className="text-primary font-medium hover:underline">
+                      abcde@digillium.in
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Why Join Us */}

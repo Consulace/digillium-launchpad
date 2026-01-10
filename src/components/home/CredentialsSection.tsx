@@ -5,25 +5,25 @@ const stats = [
     icon: TrendingUp,
     value: "95%",
     label: "Campaign Success Rate",
-    description: "Consistently exceeding client expectations",
+    description: "Delivering performance far above industry benchmarks through data-driven strategy and execution.",
   },
   {
     icon: Target,
     value: "3x",
-    label: "Average ROI",
-    description: "Proven return on marketing investment",
+    label: "Return on Investment",
+    description: "Proven return on every penny invested — from pipeline creation to closed revenue.",
   },
   {
     icon: Award,
     value: "50+",
-    label: "Enterprise Clients",
-    description: "Trusted by leading organizations",
+    label: "Enterprise & Fortune 1000 Clients",
+    description: "Trusted by global leaders across diverse industries and buying groups.",
   },
   {
     icon: Users,
     value: "30+",
-    label: "Marketing Experts",
-    description: "Dedicated strategy-led professionals",
+    label: "Strategy-Led Marketing Expertise",
+    description: "Cross-functional specialists across the B2B growth and revenue funnel.",
   },
 ];
 
