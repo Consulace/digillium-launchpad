@@ -22,8 +22,9 @@ const HeroSection = () => {
           {/* Content */}
           <div className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
-              Creative excellence meets{" "}
-              <span className="text-gradient-brand">guaranteed*</span> results.
+              We create the experience.{" "}
+              <span className="text-gradient-brand">We build the pipeline.</span>{" "}
+              You close the business.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
               High-impact marketing solutions designed to deliver measurable business outcomes.
@@ -45,7 +46,7 @@ const HeroSection = () => {
 
               {/* Floating stats card */}
               <div className="absolute -bottom-6 -left-6 bg-card rounded-xl shadow-xl p-5 border border-border">
-                <div className="text-3xl font-display font-bold text-gradient-brand">500+</div>
+                <div className="text-3xl font-display font-bold text-gradient-brand">50+</div>
                 <div className="text-sm text-muted-foreground">Campaigns Delivered</div>
               </div>
 

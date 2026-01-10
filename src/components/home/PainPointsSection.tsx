@@ -11,7 +11,7 @@ const painPoints = [
     icon: Clock,
     title: "Stop Chasing Agencies",
     description:
-      "No more precious time lost following up. Our single-point ownership means you get transparency, accountability, and results on time.",
+      "No more precious time lost following up. Our single-point ownership means you get transparency, accountability, and results on time, Everytime.",
   },
   {
     icon: CircleDollarSign,
