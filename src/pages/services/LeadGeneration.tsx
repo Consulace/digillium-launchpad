@@ -60,32 +60,29 @@ const LeadGeneration = () => {
             </div>
           </div>
 
-          {/* Process Flow */}
-          <div className="max-w-4xl mx-auto">
+          {/* Process Grid */}
+          <div>
             <h3 className="font-display text-2xl font-bold text-foreground text-center mb-12">
               Our Lead Generation Process
             </h3>
-            <div className="space-y-6">
+            <div className="grid sm:grid-cols-2 gap-8">
               {stages.map((stage, index) => (
                 <div
                   key={stage.title}
-                  className="flex gap-6 items-start p-6 rounded-2xl bg-gradient-brand-soft border border-border/50 animate-fade-in-up"
+                  className="p-8 rounded-2xl bg-gradient-brand-soft border border-border/50 animate-fade-in-up"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-primary-foreground font-bold">
-                    {index + 1}
-                  </div>
-                  <div className="flex-grow">
-                    <h4 className="font-display text-lg font-semibold text-foreground mb-2">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-primary-foreground font-bold">
+                      {index + 1}
+                    </div>
+                    <h4 className="font-display text-xl font-semibold text-foreground">
                       {stage.title}
                     </h4>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {stage.description}
-                    </p>
                   </div>
-                  {index < stages.length - 1 && (
-                    <ArrowRight className="hidden md:block h-6 w-6 text-muted-foreground/50 flex-shrink-0" />
-                  )}
+                  <p className="text-muted-foreground leading-relaxed">
+                    {stage.description}
+                  </p>
                 </div>
               ))}
             </div>
