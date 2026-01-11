@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
+import suganyaPhoto from "@/assets/suganya-sundaram.png";
 
 const WhoWeAre = () => {
   return (
@@ -98,9 +99,9 @@ const WhoWeAre = () => {
             {/* Director Card */}
             <div className="bg-card rounded-2xl border border-border p-8 animate-fade-in-up delay-100">
               <div className="flex flex-col items-center text-center">
-                {/* Photo Placeholder */}
-                <div className="w-40 h-52 rounded-xl bg-gradient-brand-soft border border-border/50 flex items-center justify-center mb-6 overflow-hidden">
-                  <div className="text-muted-foreground text-sm">Photo</div>
+                {/* Photo */}
+                <div className="w-40 h-52 rounded-xl border border-border/50 mb-6 overflow-hidden">
+                  <img src={suganyaPhoto} alt="Suganya Sundaram" className="w-full h-full object-cover object-top" />
                 </div>
                 
                 {/* Name */}
