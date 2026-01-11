@@ -80,7 +80,7 @@ const WhoWeAre = () => {
                 
                 {/* Name */}
                 <h3 className="text-xl font-display font-semibold text-foreground mb-1">
-                  [CEO Name]
+                  Balaji Kesavaraj
                 </h3>
                 
                 {/* Title */}
@@ -90,7 +90,7 @@ const WhoWeAre = () => {
                 
                 {/* Bio */}
                 <p className="text-muted-foreground leading-relaxed">
-                  A visionary leader with over 15 years of experience in marketing and technology. Passionate about driving innovation and delivering exceptional results for enterprise clients.
+                  A visionary marketing and business leader with over two decades of experience in global technology enterprises. Passionate about building high-impact teams, driving revenue innovation, and scaling enterprise growth across markets. Known for leading strategic initiatives at Microsoft, Autodesk, Cisco, and Tanla, and for championing ABM-led expansion for modern enterprises.
                 </p>
               </div>
             </div>
