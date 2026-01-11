@@ -105,7 +105,7 @@ const WhoWeAre = () => {
                 
                 {/* Name */}
                 <h3 className="text-xl font-display font-semibold text-foreground mb-1">
-                  [Director Name]
+                  Suganya Sundaram
                 </h3>
                 
                 {/* Title */}
@@ -115,7 +115,7 @@ const WhoWeAre = () => {
                 
                 {/* Bio */}
                 <p className="text-muted-foreground leading-relaxed">
-                  A strategic thinker with deep expertise in demand generation and client engagement. Committed to building lasting partnerships and achieving measurable business outcomes.
+                  A strategic growth leader with extensive experience in events, business development, and client engagement. Passionate about creating impactful brand experiences, driving market expansion, and delivering high-value outcomes for enterprise clients. Known for building strong partnerships across India and international markets through innovative event and marketing programs.
                 </p>
               </div>
             </div>
