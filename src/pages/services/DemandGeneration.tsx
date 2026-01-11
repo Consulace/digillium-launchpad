@@ -7,32 +7,32 @@ const offerings = [
   {
     icon: Target,
     title: "Targeted Outreach",
-    description: "Precision-targeted campaigns that reach decision-makers at the right time with the right message.",
+    description: "Precision outreach programs designed to engage verified decision-makers across compliant channels, ensuring the right message reaches the right audience responsibly.",
   },
   {
     icon: Database,
     title: "Account Insights",
-    description: "Deep intelligence on target accounts to personalize engagement and improve conversion.",
+    description: "Structured intelligence on target accounts that informs segmentation, personalization, and activation — backed by compliant data practices and secure enrichment workflows.",
   },
   {
     icon: Video,
     title: "Webinars & Virtual Events",
-    description: "Engaging digital experiences that educate, nurture, and move prospects through the funnel.",
+    description: "High-impact digital events that educate, nurture, and accelerate pipeline conversions while respecting communication consent and audience privacy preferences.",
   },
   {
     icon: Layers,
     title: "Omnichannel Engagement",
-    description: "Coordinated campaigns across email, social, display, and direct channels for maximum impact.",
+    description: "Integrated campaigns deployed across email, social, paid media, and direct channels for consistent brand experiences with governance over data usage and opt-in management.",
   },
   {
     icon: Settings,
     title: "Database Management",
-    description: "Clean, enriched, and segmented data foundations that power effective demand generation.",
+    description: "Clean, validated, and compliant data foundations that enable accurate targeting and segmentation. Includes enrichment, deduplication, and secure handling of customer and prospect data.",
   },
   {
     icon: BarChart3,
     title: "Performance Analytics",
-    description: "Real-time reporting and optimization to continuously improve campaign effectiveness.",
+    description: "Real-time pipeline insights and campaign analytics that optimize performance, attribution, and ROI — supported by transparent reporting and privacy-aligned measurement models.",
   },
 ];
 
