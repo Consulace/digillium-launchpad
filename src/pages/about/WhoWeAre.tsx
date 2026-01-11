@@ -89,7 +89,7 @@ const WhoWeAre = () => {
                 </p>
                 
                 {/* Bio */}
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed text-justify">
                   A visionary marketing and business leader with over two decades of experience in global technology enterprises. Passionate about building high-impact teams, driving revenue innovation, and scaling enterprise growth across markets. Known for leading strategic initiatives at Microsoft, Autodesk, Cisco, and Tanla, and for championing ABM-led expansion for modern enterprises.
                 </p>
               </div>
@@ -114,7 +114,7 @@ const WhoWeAre = () => {
                 </p>
                 
                 {/* Bio */}
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed text-justify">
                   A strategic growth leader with extensive experience in events, business development, and client engagement. Passionate about creating impactful brand experiences, driving market expansion, and delivering high-value outcomes for enterprise clients. Known for building strong partnerships across India and international markets through innovative event and marketing programs.
                 </p>
               </div>
