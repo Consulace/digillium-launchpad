@@ -91,7 +91,7 @@ const WhoWeAre = () => {
                 
                 {/* Bio */}
                 <p className="text-muted-foreground leading-relaxed text-justify">
-                  A visionary marketing and business leader with over two decades of experience in global technology enterprises. Passionate about building high-impact teams, driving revenue innovation, and scaling enterprise growth across markets. Known for leading strategic initiatives at Microsoft, Autodesk, Cisco, and Tanla, and for championing ABM-led expansion for modern enterprises.
+                  A visionary marketing and business leader with over 2 decades of experience in global technology enterprises. Passionate about building high-impact teams, driving revenue innovation, and scaling enterprise growth across markets. Known for leading strategic initiatives at Microsoft, Autodesk, Cisco, and Tanla, and for championing ABM-led expansion for modern enterprises.
                 </p>
               </div>
             </div>
