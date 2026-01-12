@@ -95,8 +95,8 @@ const Jobs = () => {
                 <div className="pt-4 border-t border-border">
                   <p className="text-muted-foreground">
                     Send your resume and portfolio to{" "}
-                    <a href="mailto:abcde@digillium.in" className="text-primary font-medium hover:underline">
-                      abcde@digillium.in
+                    <a href="mailto:contact@digillium.in" className="text-primary font-medium hover:underline">
+                      contact@digillium.in
                     </a>
                   </p>
                 </div>
