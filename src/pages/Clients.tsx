@@ -3,11 +3,9 @@ import PageHeader from "@/components/ui/PageHeader";
 
 // Import client logos
 import affinidiLogo from "@/assets/clients/affinidi.png";
-import arkanceLogo from "@/assets/clients/arkance.png";
 import beenextLogo from "@/assets/clients/beenext.png";
 import capitalandLogo from "@/assets/clients/capitaland.png";
 import chamborLogo from "@/assets/clients/chambor.png";
-import hpLogo from "@/assets/clients/hp.png";
 import jpmorganLogo from "@/assets/clients/jpmorgan.png";
 import karixLogo from "@/assets/clients/karix.png";
 import microgenesisLogo from "@/assets/clients/microgenesis.png";
@@ -19,11 +17,9 @@ import veeamLogo from "@/assets/clients/veeam.png";
 
 const clients = [
   { name: "Affinidi", logo: affinidiLogo },
-  { name: "Arkance", logo: arkanceLogo },
   { name: "Beenext", logo: beenextLogo },
   { name: "CapitaLand", logo: capitalandLogo },
   { name: "Chambor", logo: chamborLogo },
-  { name: "HP", logo: hpLogo },
   { name: "JPMorgan Chase", logo: jpmorganLogo },
   { name: "Karix", logo: karixLogo },
   { name: "Microgenesis", logo: microgenesisLogo },
@@ -61,7 +57,7 @@ const Clients = () => {
           </div>
 
           {/* Client Logos Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {clients.map((client, index) => (
               <div
                 key={client.name}
