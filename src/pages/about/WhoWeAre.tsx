@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
 import suganyaPhoto from "@/assets/suganya-sundaram.png";
+import balajiPhoto from "@/assets/balaji-kesavaraj.png";
 
 const WhoWeAre = () => {
   return (
@@ -74,9 +75,9 @@ const WhoWeAre = () => {
             {/* CEO Card */}
             <div className="bg-card rounded-2xl border border-border p-8 animate-fade-in-up">
               <div className="flex flex-col items-center text-center">
-                {/* Photo Placeholder */}
-                <div className="w-40 h-52 rounded-xl bg-gradient-brand-soft border border-border/50 flex items-center justify-center mb-6 overflow-hidden">
-                  <div className="text-muted-foreground text-sm">Photo</div>
+                {/* Photo */}
+                <div className="w-40 h-52 rounded-xl border border-border/50 mb-6 overflow-hidden">
+                  <img src={balajiPhoto} alt="Balaji Kesavaraj" className="w-full h-full object-cover object-top" />
                 </div>
                 
                 {/* Name */}
@@ -116,7 +117,7 @@ const WhoWeAre = () => {
                 
                 {/* Bio */}
                 <p className="text-muted-foreground leading-relaxed text-justify">
-                  A strategic growth leader with extensive experience in events, business development, and client engagement. Passionate about creating impactful brand experiences, driving market expansion, and delivering high-value outcomes for enterprise clients. Known for building strong partnerships across India and international markets through innovative event and marketing programs.
+                  A strategic growth leader with over 2 decades of experience in events, business development, and client engagement. Passionate about creating impactful brand experiences, driving market expansion, and delivering high-value outcomes for enterprise clients. Known for building strong partnerships across India and international markets through innovative event and marketing programs.
                 </p>
               </div>
             </div>
