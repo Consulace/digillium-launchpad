@@ -36,7 +36,7 @@ const navItems: NavItem[] = [
     ],
   },
   { label: "Clients", path: "/clients" },
-  { label: "Jobs", path: "/jobs" },
+  { label: "Careers", path: "/jobs" },
   { label: "Contact Us", path: "/contact" },
 ];
 
