@@ -3,6 +3,7 @@ import PageHeader from "@/components/ui/PageHeader";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
 import suganyaPhoto from "@/assets/suganya-sundaram.png";
 import balajiPhoto from "@/assets/balaji-kesavaraj.png";
+import { Linkedin } from "lucide-react";
 
 const WhoWeAre = () => {
   return (
@@ -94,6 +95,17 @@ const WhoWeAre = () => {
                 <p className="text-muted-foreground leading-relaxed text-justify">
                   A visionary marketing and business leader with over 2 decades of experience in global technology enterprises. Passionate about building high-impact teams, driving revenue innovation, and scaling enterprise growth across markets. Known for leading strategic initiatives at Microsoft, Autodesk, Cisco, and Tanla, and for championing ABM-led expansion for modern enterprises.
                 </p>
+                
+                {/* LinkedIn */}
+                <a 
+                  href="https://www.linkedin.com/in/balajikesavaraj" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
+                >
+                  <Linkedin size={20} />
+                  <span className="text-sm font-medium">LinkedIn</span>
+                </a>
               </div>
             </div>
 
@@ -119,6 +131,17 @@ const WhoWeAre = () => {
                 <p className="text-muted-foreground leading-relaxed text-justify">
                   A strategic growth leader with over 2 decades of experience in events, business development, and client engagement. Passionate about creating impactful brand experiences, driving market expansion, and delivering high-value outcomes for enterprise clients. Known for building strong partnerships across India and international markets through innovative event and marketing programs.
                 </p>
+                
+                {/* LinkedIn */}
+                <a 
+                  href="https://www.linkedin.com/in/suganyasundaram" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
+                >
+                  <Linkedin size={20} />
+                  <span className="text-sm font-medium">LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>
