@@ -15,7 +15,7 @@ return (
                         Introduction
                     </h2>
                     <p>
-                        Welcome to MakeMyCampaign. By accessing or using our website and services,
+                        Welcome to Digillium. By accessing or using our website and services,
                         you agree to be bound by these Terms and Conditions. If you do not agree,
                         please do not use our services.
                     </p>
@@ -63,7 +63,7 @@ return (
                     </h2>
                     <p>
                         All content, branding, and materials provided are the intellectual property
-                        of MakeMyCampaign and may not be reused without permission.
+                        of Digillium and may not be reused without permission.
                     </p>
                 </div>
 
