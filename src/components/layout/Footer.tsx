@@ -128,11 +128,11 @@ const Footer = () => {
             © {new Date().getFullYear()} Digillium — All Rights Reserved
           </p>
           <div className="flex gap-6 text-sm text-background/60">
-            <Link to="/about/faqs" className="hover:text-background transition-colors">
-              FAQs
+            <Link to="/privacy" className="hover:text-background transition-colors">
+              Privacy policy
             </Link>
-            <Link to="/contact" className="hover:text-background transition-colors">
-              Contact
+            <Link to="/termsandconditions" className="hover:text-background transition-colors">
+              Terms & Conditions
             </Link>
           </div>
         </div>
