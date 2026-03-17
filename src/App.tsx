@@ -19,6 +19,8 @@ import MerchandiseGifting from "./pages/services/MerchandiseGifting";
 import Clients from "./pages/Clients";
 import Jobs from "./pages/Jobs";
 import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import TermsandConditions from "./pages/TermsandConditions';
 
 const queryClient = new QueryClient();
 
@@ -49,6 +51,8 @@ const App = () => (
           <Route path="/clients" element={<Clients />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/termsandconditions" element={<TermsandConditions />} />
 
           {/* 404 */}
           <Route path="*" element={<NotFound />} />
